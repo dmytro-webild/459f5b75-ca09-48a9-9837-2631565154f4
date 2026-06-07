@@ -10,8 +10,8 @@ import { Archivo } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Your Name | High-Ticket Remote Sales Closer',
-  description: 'Accelerate your business revenue with a top-tier high-ticket remote sales closer. Specializing in authentic, high-converting sales conversations.',
+  title: 'Kathleen Reyes | High-Ticket Remote Sales Closer',
+  description: 'Accelerate your business revenue with Kathleen Reyes, a top-tier high-ticket remote sales closer. Specializing in authentic, high-converting sales conversations and a girly aesthetic.',
   keywords: ["remote sales closer, high-ticket sales, sales professional, closing deals, sales expert, remote selling, sales portfolio"],
   openGraph: {
     "title": "Your Name | High-Ticket Remote Sales Closer",
