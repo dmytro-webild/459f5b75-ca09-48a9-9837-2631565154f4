@@ -102,14 +102,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       imagePosition="right"
       title="Training & Experience"
-      description="With over 2 years of experience as a High-Ticket Remote Closer, I bring a wealth of expertise and a proven track record of converting leads into loyal clients. My approach is rooted in genuine connection and strategic persuasion, ensuring not just sales, but lasting relationships."
+      description="I have 10 years experience doing freelance B2B sales that have generated over 5 million in sales. I have been trained in the She Sales Academy and am always looking to learn and train to be the best top sales agent. My approach focuses on authentic connections and strategic persuasion, ensuring not just sales, but lasting relationships and consistent revenue."
       bulletPoints={[
         {
-          title: "2+ years experience",          description: "As a High-Ticket Remote Closer for programs and courses, helping women business owners build businesses that give them ultimate freedom."},
+          title: "10+ Years Experience",          description: "Over a decade of freelance B2B sales, generating more than $5 million in revenue."},
         {
-          title: "Certified Closer",          description: "Certified High Ticket Sales Remote Closer with Shelby Soco."},
+          title: "Continuous Learner",          description: "Trained in the She Sales Academy, I consistently seek new knowledge and training to be a top sales agent."},
         {
-          title: "Expert in Discovery Calls",          description: "Trained and experienced in discovery calls, objection handling, and high-ticket closing techniques."},
+          title: "Sales Expertise",          description: "Proficient in discovery calls, objection handling, and high-converting closing techniques."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/woman-enjoying-sudoku-game-paper-by-herself_23-2149073673.jpg"
       imageAlt="Woman teaching outdoors"
@@ -189,8 +189,8 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
-      title="Let's Connect"
-      description="Ready to elevate your sales? Book a complimentary discovery call to discuss your goals and how I can help you achieve them. I'm excited to learn more about your business."
+      title="Let's Connect & Grow Together"
+      description="Ready to elevate your sales? Book a complimentary strategy call to discuss your goals and how I can help you achieve them. You can reach me directly at kathleen@reyespartnership.com. Schedule your call here: calendaly.com/katsells."
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Your Name",          required: true,
