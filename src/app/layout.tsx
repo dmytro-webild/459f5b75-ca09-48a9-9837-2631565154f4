@@ -42,8 +42,9 @@ export const metadata: Metadata = {
 };
 
 
-const openSans = Open_Sans({
-  variable: "--font-open-sans",  subsets: ["latin"],
+
+const archivo = Archivo({
+  variable: "--font-archivo",  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -54,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${openSans.variable} antialiased`}>
+        <body className={`${archivo.variable} antialiased`}>
           
           {children}
           <script
