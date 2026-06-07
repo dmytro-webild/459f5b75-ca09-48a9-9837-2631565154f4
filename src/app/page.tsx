@@ -151,19 +151,19 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "1",          name: "Colleen James",          role: "Founder",          company: "Flipping Destiny",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-beautiful-strict-woman-glasses_1262-1732.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg"},
         {
           id: "2",          name: "Marie Ellis",          role: "CEO",          company: "Unleashed Coach",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/pov-businessman-attending-videocall-meeting-office-using-online-videoconference-talk-consultant-about-financial-strategy-company-employee-chatting-remote-teleconference-close-up_482257-40929.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-f95a6qti.png"},
         {
           id: "3",          name: "Sarah Johnson",          role: "Business Coach",          company: "Elevate Success",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-bright-curly-woman-dressed-blue-jacket-glasses-stands-with-serious-emotions-pink_291650-1099.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-n1v84v61.png"},
         {
           id: "4",          name: "Michael Chen",          role: "Program Director",          company: "Innovate Academy",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-man-holding-his-arms-crossed-christmas_23-2148737963.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-jrxqiej5.png"},
         {
           id: "5",          name: "Emily Rodriguez",          role: "Marketing Consultant",          company: "Growth Dynamics",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/people-technology-close-up-shot-happy-face-attractive-bearded-man-sitting-front-laptop-screen-smiling-joyfully-while-messaging-friends-online-via-social-networks_273609-6655.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg"},
       ]}
       kpiItems={[
         {
@@ -194,8 +194,8 @@ export default function LandingPage() {
       textarea={{
         name: "message",        placeholder: "Tell me about your business and goals",        rows: 4,
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/unrecognizable-businesswoman-sitting-desk-with-laptop-looking-calendar_1098-20530.jpg"
-      imageAlt="Calendar for scheduling appointments"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-lwadgd2z.jpg"
+      imageAlt="Kathleen Reyes in a professional setting for scheduling appointments"
       mediaAnimation="opacity"
       mediaPosition="right"
       buttonText="Book a Call"
