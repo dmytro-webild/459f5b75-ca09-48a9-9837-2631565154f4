@@ -139,11 +139,11 @@ export default function LandingPage() {
       tag="RESULTS THAT SPEAK VOLUMES"
       metrics={[
         {
-          id: "1",          value: "$9.14M",          description: "Revenue Generated"},
+          id: "1",          value: "5M+",          description: "Generated Revenue"},
         {
-          id: "2",          value: "42%",          description: "Close Rate"},
+          id: "2",          value: "80%+",          description: "Close Rate"},
         {
-          id: "3",          value: "6",          description: "Niches Sold"},
+          id: "3",          value: "7+",          description: "Niches"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -199,7 +199,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="She Sells"
+      logoText="Kat Sells"
       columns={[
         {
           title: "Navigation",          items: [
