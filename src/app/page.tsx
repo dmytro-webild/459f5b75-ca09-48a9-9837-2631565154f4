@@ -101,6 +101,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780875154925-w091cu4a.jpg"
       imageAlt="Kathleen Reyes professional photo"
       mediaAnimation="slide-up"
+      textBoxClassName="bg-card p-6 rounded-lg shadow-md"
     />
   </div>
 
