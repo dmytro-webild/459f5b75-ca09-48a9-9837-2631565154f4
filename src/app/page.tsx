@@ -151,7 +151,7 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "1",          name: "Colleen James",          role: "Founder",          company: "Flipping Destiny",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg?_wi=1"},
         {
           id: "2",          name: "Marie Ellis",          role: "CEO",          company: "Unleashed Coach",          rating: 5,
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-f95a6qti.png"},
@@ -163,7 +163,7 @@ export default function LandingPage() {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-jrxqiej5.png"},
         {
           id: "5",          name: "Emily Rodriguez",          role: "Marketing Consultant",          company: "Growth Dynamics",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg?_wi=2"},
       ]}
       kpiItems={[
         {
