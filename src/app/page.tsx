@@ -82,7 +82,7 @@ export default function LandingPage() {
         {
           title: "Sales Expertise",          description: "Proficient in discovery calls, objection handling, and high-converting closing techniques."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/woman-enjoying-sudoku-game-paper-by-herself_23-2149073673.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874806365-8j8v2clo.png"
       imageAlt="Woman teaching outdoors"
       mediaAnimation="slide-up"
     />
