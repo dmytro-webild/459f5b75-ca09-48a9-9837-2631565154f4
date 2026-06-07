@@ -30,65 +30,42 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "#home",
-        },
+          name: "Home",          id: "#home"},
         {
-          name: "About",
-          id: "#about",
-        },
+          name: "About",          id: "#about"},
         {
-          name: "Services",
-          id: "#services",
-        },
+          name: "Services",          id: "#services"},
         {
-          name: "Results",
-          id: "#results",
-        },
+          name: "Results",          id: "#results"},
         {
-          name: "Contact",
-          id: "#contact",
-        },
+          name: "Contact",          id: "#contact"},
       ]}
-      brandName="Your Name"
+      brandName="Kathleen Reyes"
     />
   </div>
 
   <div id="home" data-section="home">
       <HeroBillboardCarousel
       background={{
-        variant: "plain",
-      }}
-      title="BRYN SMITH"
+        variant: "plain"}}
+      title="KATHLEEN REYES"
       description="I help female business coaches turn qualified leads into paying clients through authentic, high-converting sales conversations."
       tag="REMOTE HIGH TICKET CLOSER"
       buttons={[
         {
-          text: "Book a Strategy Call",
-          href: "#contact",
-        },
+          text: "Book a Strategy Call",          href: "#contact"},
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780872666144-cwmkftxh.jpg",
-          imageAlt: "Bryn Smith, High Ticket Closer",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780872666144-cwmkftxh.jpg",          imageAlt: "Bryn Smith, High Ticket Closer"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/standing-vote-graduation-conference-room-bargain_1134-1130.jpg",
-          imageAlt: "Female business coach smiling confidently",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/standing-vote-graduation-conference-room-bargain_1134-1130.jpg",          imageAlt: "Female business coach smiling confidently"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/crazy-businessman-happy-expression_1194-3584.jpg",
-          imageAlt: "Successful sales call in progress",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/crazy-businessman-happy-expression_1194-3584.jpg",          imageAlt: "Successful sales call in progress"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-smiling-woman-scream-with-happy-excited-face-saying-yes-making-fist-pump-winning-f_1258-118881.jpg",
-          imageAlt: "Woman celebrating a sales win",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-smiling-woman-scream-with-happy-excited-face-saying-yes-making-fist-pump-winning-f_1258-118881.jpg",          imageAlt: "Woman celebrating a sales win"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-caucasian-woman-talking-friends-street_74855-5156.jpg",
-          imageAlt: "Professional woman speaking to clients",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-caucasian-woman-talking-friends-street_74855-5156.jpg",          imageAlt: "Professional woman speaking to clients"},
       ]}
     />
   </div>
@@ -96,48 +73,25 @@ export default function LandingPage() {
   <div id="loom-video" data-section="loom-video">
       <HeroBillboardCarousel
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="I Close a $5K DEAL in 10 Mins"
       description="Watch my proven closing strategy in action."
       tag="WATCH ME CLOSE A DEAL"
       buttons={[
         {
-          text: "Watch My Close",
-          href: "https://www.loom.com/share/your-loom-video-id",
-        },
+          text: "Watch My Close",          href: "https://www.loom.com/share/your-loom-video-id"},
       ]}
       mediaItems={[
         {
-          videoSrc: "https://www.loom.com/share/your-loom-video-id",
-          imageSrc: "http://img.b2bpic.net/free-photo/camera-capture-snap-shot-graphic_53876-121027.jpg",
-          imageAlt: "Loom video thumbnail showing sales deal",
-          videoAriaLabel: "Loom video demonstrating a sales close",
-        },
+          videoSrc: "https://www.loom.com/share/your-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/camera-capture-snap-shot-graphic_53876-121027.jpg",          imageAlt: "Loom video thumbnail showing sales deal",          videoAriaLabel: "Loom video demonstrating a sales close"},
         {
-          videoSrc: "https://www.loom.com/share/another-loom-video-id",
-          imageSrc: "http://img.b2bpic.net/free-photo/conference-call-global-communication-connection-technology-concept_53876-120414.jpg",
-          imageAlt: "Strategy session recording thumbnail",
-          videoAriaLabel: "Video demonstrating a strategy session",
-        },
+          videoSrc: "https://www.loom.com/share/another-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/conference-call-global-communication-connection-technology-concept_53876-120414.jpg",          imageAlt: "Strategy session recording thumbnail",          videoAriaLabel: "Video demonstrating a strategy session"},
         {
-          videoSrc: "https://www.loom.com/share/yet-another-loom-video-id",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiley-female-english-teacher-doing-online-lessons-her-smartphone_23-2149019758.jpg",
-          imageAlt: "Client success story video thumbnail",
-          videoAriaLabel: "Video showcasing a client success story",
-        },
+          videoSrc: "https://www.loom.com/share/yet-another-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-female-english-teacher-doing-online-lessons-her-smartphone_23-2149019758.jpg",          imageAlt: "Client success story video thumbnail",          videoAriaLabel: "Video showcasing a client success story"},
         {
-          videoSrc: "https://www.loom.com/share/final-loom-video-id",
-          imageSrc: "http://img.b2bpic.net/free-photo/coworking-space-office-corporate-business-concept_53876-120913.jpg",
-          imageAlt: "Sales process breakdown video thumbnail",
-          videoAriaLabel: "Video breaking down sales process",
-        },
+          videoSrc: "https://www.loom.com/share/final-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/coworking-space-office-corporate-business-concept_53876-120913.jpg",          imageAlt: "Sales process breakdown video thumbnail",          videoAriaLabel: "Video breaking down sales process"},
         {
-          videoSrc: "https://www.loom.com/share/last-loom-video-id",
-          imageSrc: "http://img.b2bpic.net/free-photo/female-teacher-with-protective-face-mask-recording-lecture-eleaning-virus-pandemic_637285-9412.jpg",
-          imageAlt: "Objection handling masterclass thumbnail",
-          videoAriaLabel: "Video on handling sales objections",
-        },
+          videoSrc: "https://www.loom.com/share/last-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/female-teacher-with-protective-face-mask-recording-lecture-eleaning-virus-pandemic_637285-9412.jpg",          imageAlt: "Objection handling masterclass thumbnail",          videoAriaLabel: "Video on handling sales objections"},
       ]}
     />
   </div>
@@ -151,17 +105,11 @@ export default function LandingPage() {
       description="With over 2 years of experience as a High-Ticket Remote Closer, I bring a wealth of expertise and a proven track record of converting leads into loyal clients. My approach is rooted in genuine connection and strategic persuasion, ensuring not just sales, but lasting relationships."
       bulletPoints={[
         {
-          title: "2+ years experience",
-          description: "As a High-Ticket Remote Closer for programs and courses, helping women business owners build businesses that give them ultimate freedom.",
-        },
+          title: "2+ years experience",          description: "As a High-Ticket Remote Closer for programs and courses, helping women business owners build businesses that give them ultimate freedom."},
         {
-          title: "Certified Closer",
-          description: "Certified High Ticket Sales Remote Closer with Shelby Soco.",
-        },
+          title: "Certified Closer",          description: "Certified High Ticket Sales Remote Closer with Shelby Soco."},
         {
-          title: "Expert in Discovery Calls",
-          description: "Trained and experienced in discovery calls, objection handling, and high-ticket closing techniques.",
-        },
+          title: "Expert in Discovery Calls",          description: "Trained and experienced in discovery calls, objection handling, and high-ticket closing techniques."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/woman-enjoying-sudoku-game-paper-by-herself_23-2149073673.jpg"
       imageAlt="Woman teaching outdoors"
@@ -175,23 +123,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Seamless Integration",
-          description: "I adapt quickly to your existing sales funnels and CRM systems, minimizing downtime and maximizing efficiency from day one.",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-stands-reviews-documents_482257-120351.jpg",
-          imageAlt: "Hands typing on laptop",
-        },
+          title: "Seamless Integration",          description: "I adapt quickly to your existing sales funnels and CRM systems, minimizing downtime and maximizing efficiency from day one.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-stands-reviews-documents_482257-120351.jpg",          imageAlt: "Hands typing on laptop"},
         {
-          title: "Authentic Connections",
-          description: "Building rapport is key. I connect with your prospects on a human level, understanding their needs before offering tailored solutions.",
-          imageSrc: "http://img.b2bpic.net/free-photo/office-workers-working-together-as-team_23-2149310899.jpg",
-          imageAlt: "Clients discussing a deal",
-        },
+          title: "Authentic Connections",          description: "Building rapport is key. I connect with your prospects on a human level, understanding their needs before offering tailored solutions.",          imageSrc: "http://img.b2bpic.net/free-photo/office-workers-working-together-as-team_23-2149310899.jpg",          imageAlt: "Clients discussing a deal"},
         {
-          title: "Proven Closing Strategies",
-          description: "Leveraging advanced closing techniques, I navigate objections gracefully and guide prospects to a confident 'yes,' consistently exceeding targets.",
-          imageSrc: "http://img.b2bpic.net/free-photo/business-report-graphs-charts-business-concept_1150-2253.jpg",
-          imageAlt: "Growth chart",
-        },
+          title: "Proven Closing Strategies",          description: "Leveraging advanced closing techniques, I navigate objections gracefully and guide prospects to a confident 'yes,' consistently exceeding targets.",          imageSrc: "http://img.b2bpic.net/free-photo/business-report-graphs-charts-business-concept_1150-2253.jpg",          imageAlt: "Growth chart"},
       ]}
       title="What I Bring to the Table"
       description="My services are designed to integrate seamlessly with your sales process, elevating your closing rates and ensuring client satisfaction."
@@ -205,20 +141,11 @@ export default function LandingPage() {
       tag="RESULTS THAT SPEAK VOLUMES"
       metrics={[
         {
-          id: "1",
-          value: "$9.14M",
-          description: "Revenue Generated",
-        },
+          id: "1",          value: "$9.14M",          description: "Revenue Generated"},
         {
-          id: "2",
-          value: "42%",
-          description: "Close Rate",
-        },
+          id: "2",          value: "42%",          description: "Close Rate"},
         {
-          id: "3",
-          value: "6",
-          description: "Niches Sold",
-        },
+          id: "3",          value: "6",          description: "Niches Sold"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -231,59 +158,28 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Colleen James",
-          role: "Founder",
-          company: "Flipping Destiny",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-beautiful-strict-woman-glasses_1262-1732.jpg",
-        },
+          id: "1",          name: "Colleen James",          role: "Founder",          company: "Flipping Destiny",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-beautiful-strict-woman-glasses_1262-1732.jpg"},
         {
-          id: "2",
-          name: "Marie Ellis",
-          role: "CEO",
-          company: "Unleashed Coach",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/pov-businessman-attending-videocall-meeting-office-using-online-videoconference-talk-consultant-about-financial-strategy-company-employee-chatting-remote-teleconference-close-up_482257-40929.jpg",
-        },
+          id: "2",          name: "Marie Ellis",          role: "CEO",          company: "Unleashed Coach",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/pov-businessman-attending-videocall-meeting-office-using-online-videoconference-talk-consultant-about-financial-strategy-company-employee-chatting-remote-teleconference-close-up_482257-40929.jpg"},
         {
-          id: "3",
-          name: "Sarah Johnson",
-          role: "Business Coach",
-          company: "Elevate Success",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-bright-curly-woman-dressed-blue-jacket-glasses-stands-with-serious-emotions-pink_291650-1099.jpg",
-        },
+          id: "3",          name: "Sarah Johnson",          role: "Business Coach",          company: "Elevate Success",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-bright-curly-woman-dressed-blue-jacket-glasses-stands-with-serious-emotions-pink_291650-1099.jpg"},
         {
-          id: "4",
-          name: "Michael Chen",
-          role: "Program Director",
-          company: "Innovate Academy",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/bearded-man-holding-his-arms-crossed-christmas_23-2148737963.jpg",
-        },
+          id: "4",          name: "Michael Chen",          role: "Program Director",          company: "Innovate Academy",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/bearded-man-holding-his-arms-crossed-christmas_23-2148737963.jpg"},
         {
-          id: "5",
-          name: "Emily Rodriguez",
-          role: "Marketing Consultant",
-          company: "Growth Dynamics",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/people-technology-close-up-shot-happy-face-attractive-bearded-man-sitting-front-laptop-screen-smiling-joyfully-while-messaging-friends-online-via-social-networks_273609-6655.jpg",
-        },
+          id: "5",          name: "Emily Rodriguez",          role: "Marketing Consultant",          company: "Growth Dynamics",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/people-technology-close-up-shot-happy-face-attractive-bearded-man-sitting-front-laptop-screen-smiling-joyfully-while-messaging-friends-online-via-social-networks_273609-6655.jpg"},
       ]}
       kpiItems={[
         {
-          value: "🔥",
-          label: "Your offer creates meaningful transformation",
-        },
+          value: "🔥",          label: "Your offer creates meaningful transformation"},
         {
-          value: "🌍",
-          label: "You're looking for a closer who genuinely believes in your mission",
-        },
+          value: "🌍",          label: "You're looking for a closer who genuinely believes in your mission"},
         {
-          value: "📈",
-          label: "You want to scale your impact and revenue",
-        },
+          value: "📈",          label: "You want to scale your impact and revenue"},
       ]}
       title="Client Success Stories"
       description="Hear directly from business owners who have experienced transformative growth and revenue boosts through my closing expertise."
@@ -297,22 +193,14 @@ export default function LandingPage() {
       description="Ready to elevate your sales? Book a complimentary discovery call to discuss your goals and how I can help you achieve them. I'm excited to learn more about your business."
       inputs={[
         {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
         },
         {
-          name: "email",
-          type: "email",
-          placeholder: "Your Email",
-          required: true,
+          name: "email",          type: "email",          placeholder: "Your Email",          required: true,
         },
       ]}
       textarea={{
-        name: "message",
-        placeholder: "Tell me about your business and goals",
-        rows: 4,
+        name: "message",        placeholder: "Tell me about your business and goals",        rows: 4,
       }}
       imageSrc="http://img.b2bpic.net/free-photo/unrecognizable-businesswoman-sitting-desk-with-laptop-looking-calendar_1098-20530.jpg"
       imageAlt="Calendar for scheduling appointments"
@@ -327,58 +215,37 @@ export default function LandingPage() {
       logoText="She Sells"
       columns={[
         {
-          title: "Navigation",
-          items: [
+          title: "Navigation",          items: [
             {
-              label: "Home",
-              href: "#home",
-            },
+              label: "Home",              href: "#home"},
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "About",              href: "#about"},
             {
-              label: "Services",
-              href: "#services",
-            },
+              label: "Services",              href: "#services"},
             {
-              label: "Results",
-              href: "#results",
-            },
+              label: "Results",              href: "#results"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
         {
-          title: "Resources",
-          items: [
+          title: "Resources",          items: [
             {
-              label: "Blog",
-              href: "#",
-            },
+              label: "Blog",              href: "#"},
             {
-              label: "Case Studies",
-              href: "#",
-            },
+              label: "Case Studies",              href: "#"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
           ],
         },
       ]}
-      copyrightText="© 2024 Your Name. All rights reserved."
+      copyrightText="© 2024 Kathleen Reyes. All rights reserved."
     />
   </div>
       </ReactLenis>
