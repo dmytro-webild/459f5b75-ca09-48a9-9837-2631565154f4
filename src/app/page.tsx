@@ -49,7 +49,7 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       title="KATHLEEN REYES"
-      description="I help female business coaches turn qualified leads into paying clients through authentic, high-converting sales conversations."
+      description="Leveraging 10 years of B2B sales experience to generate over $5M in sales, I help female business coaches turn qualified leads into paying clients through authentic, high-converting sales conversations."
       tag="REMOTE HIGH TICKET CLOSER"
       buttons={[
         {
@@ -57,15 +57,7 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780872666144-cwmkftxh.jpg",          imageAlt: "Bryn Smith, High Ticket Closer"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/standing-vote-graduation-conference-room-bargain_1134-1130.jpg",          imageAlt: "Female business coach smiling confidently"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/crazy-businessman-happy-expression_1194-3584.jpg",          imageAlt: "Successful sales call in progress"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-smiling-woman-scream-with-happy-excited-face-saying-yes-making-fist-pump-winning-f_1258-118881.jpg",          imageAlt: "Woman celebrating a sales win"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-caucasian-woman-talking-friends-street_74855-5156.jpg",          imageAlt: "Professional woman speaking to clients"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780873848508-6o3b4vp3.jpg",          imageAlt: "Kathleen Reyes professional portrait"}
       ]}
     />
   </div>
@@ -102,12 +94,12 @@ export default function LandingPage() {
       useInvertedBackground={false}
       imagePosition="right"
       title="Training & Experience"
-      description="I have 10 years experience doing freelance B2B sales that have generated over 5 million in sales. I have been trained in the She Sales Academy and am always looking to learn and train to be the best top sales agent. My approach focuses on authentic connections and strategic persuasion, ensuring not just sales, but lasting relationships and consistent revenue."
+      description="With 10 years experience doing freelance B2B sales that have generated over 5 million in sales, I am dedicated to continuous growth. Trained in the She Sales Academy, my approach focuses on authentic connections and strategic persuasion, ensuring not just sales, but lasting relationships and consistent revenue."
       bulletPoints={[
         {
-          title: "10+ Years Experience",          description: "Over a decade of freelance B2B sales, generating more than $5 million in revenue."},
+          title: "10 Years Experience",          description: "Over a decade of freelance B2B sales, generating more than $5 million in revenue."},
         {
-          title: "Continuous Learner",          description: "Trained in the She Sales Academy, I consistently seek new knowledge and training to be a top sales agent."},
+          title: "Continuous Learning",          description: "Trained in the She Sales Academy with a continuous learning mindset to be a top sales agent."},
         {
           title: "Sales Expertise",          description: "Proficient in discovery calls, objection handling, and high-converting closing techniques."},
       ]}
@@ -190,7 +182,7 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={true}
       title="Let's Connect & Grow Together"
-      description="Ready to elevate your sales? Book a complimentary strategy call to discuss your goals and how I can help you achieve them. You can reach me directly at kathleen@reyespartnership.com. Schedule your call here: calendaly.com/katsells."
+      description="Ready to elevate your sales? Book a complimentary strategy call to discuss your goals and how I can help you achieve them. Schedule your call here: calendaly.com/katsells. You can also reach me directly at kathleen@reyespartnership.com."
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Your Name",          required: true,
