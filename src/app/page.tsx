@@ -48,7 +48,7 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       title="KATHLEEN REYES"
-      description="Leveraging 10 years of B2B sales experience to generate over $5M in sales, I help female business coaches turn qualified leads into paying clients through authentic, high-converting sales conversations."
+      description="Leveraging 10 years of B2B sales experience to generate over $5M in sales, I help coaches turn qualified leads into paying clients through authentic, high-converting sales conversations."
       tag="REMOTE HIGH TICKET CLOSER"
       buttons={[
         {
@@ -56,7 +56,13 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780873848508-6o3b4vp3.jpg",          imageAlt: "Kathleen Reyes professional portrait"}
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png",          imageAlt: "Kathleen Reyes coaching a client"},
+        {
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675372-chqpb9nf.png",          imageAlt: "Kathleen Reyes in a coaching session"},
+        {
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675372-1ihdcm68.png",          imageAlt: "Kathleen Reyes guiding a discussion"},
+        {
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675372-thu5tkhq.png",          imageAlt: "Kathleen Reyes consulting with a client"}
       ]}
     />
   </div>
