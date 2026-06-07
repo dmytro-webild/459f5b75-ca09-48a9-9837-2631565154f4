@@ -94,7 +94,7 @@ export default function LandingPage() {
       <SplitAbout
       textboxLayout="default"
       useInvertedBackground={false}
-      imagePosition="left"
+      imagePosition="right"
       title="About Me"
       description="I'm a highly coachable, results-driven sales professional who sets ambitious goals and consistently pushes myself to exceed them. I've always been someone who strives to be a top performer, not because I have to, but because I genuinely love growth, competition, and excellence. When I join a team, I don't operate like an employee—I treat the business as if it's my own. I take ownership of the follow-up, the client experience, the conversions, and the details that drive revenue. My success as a freelance sales closer has been built largely through long-term client relationships and referrals, which I believe speaks volumes about the trust and results I provide. I pride myself on my work ethic, consistency, and commitment to continuous improvement. No one will care more, prepare more, or work harder on your behalf. I'm incredibly driven, self-motivated, and always looking for ways to create more value. To demonstrate my confidence and reduce risk for the businesses I partner with, I often offer a one-month trial at half my standard commission. It allows me to prove my value through performance while giving clients the opportunity to experience firsthand the level of ownership, commitment, and results I bring to the table."
       bulletPoints={[]}
