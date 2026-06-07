@@ -9,7 +9,6 @@ import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarou
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 
 export default function LandingPage() {
   return (
@@ -36,7 +35,7 @@ export default function LandingPage() {
         {
           name: "Services",          id: "#services"},
         {
-          name: "Results",          id: "#results"},
+          name: "Loom Videos",          id: "#loom-video"},
         {
           name: "Contact",          id: "#contact"},
       ]}
@@ -58,32 +57,6 @@ export default function LandingPage() {
       mediaItems={[
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780873848508-6o3b4vp3.jpg",          imageAlt: "Kathleen Reyes professional portrait"}
-      ]}
-    />
-  </div>
-
-  <div id="loom-video" data-section="loom-video">
-      <HeroBillboardCarousel
-      background={{
-        variant: "plain"}}
-      title="I Close a $5K DEAL in 10 Mins"
-      description="Watch my proven closing strategy in action."
-      tag="WATCH ME CLOSE A DEAL"
-      buttons={[
-        {
-          text: "Watch My Close",          href: "https://www.loom.com/share/your-loom-video-id"},
-      ]}
-      mediaItems={[
-        {
-          videoSrc: "https://www.loom.com/share/your-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/camera-capture-snap-shot-graphic_53876-121027.jpg",          imageAlt: "Loom video thumbnail showing sales deal",          videoAriaLabel: "Loom video demonstrating a sales close"},
-        {
-          videoSrc: "https://www.loom.com/share/another-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/conference-call-global-communication-connection-technology-concept_53876-120414.jpg",          imageAlt: "Strategy session recording thumbnail",          videoAriaLabel: "Video demonstrating a strategy session"},
-        {
-          videoSrc: "https://www.loom.com/share/yet-another-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-female-english-teacher-doing-online-lessons-her-smartphone_23-2149019758.jpg",          imageAlt: "Client success story video thumbnail",          videoAriaLabel: "Video showcasing a client success story"},
-        {
-          videoSrc: "https://www.loom.com/share/final-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/coworking-space-office-corporate-business-concept_53876-120913.jpg",          imageAlt: "Sales process breakdown video thumbnail",          videoAriaLabel: "Video breaking down sales process"},
-        {
-          videoSrc: "https://www.loom.com/share/last-loom-video-id",          imageSrc: "http://img.b2bpic.net/free-photo/female-teacher-with-protective-face-mask-recording-lecture-eleaning-virus-pandemic_637285-9412.jpg",          imageAlt: "Objection handling masterclass thumbnail",          videoAriaLabel: "Video on handling sales objections"},
       ]}
     />
   </div>
@@ -143,38 +116,27 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="results" data-section="results">
-      <TestimonialCardSixteen
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      testimonials={[
+  <div id="loom-video" data-section="loom-video">
+      <HeroBillboardCarousel
+      background={{
+        variant: "plain"}}
+      title="Watch My Sales Calls in Action"
+      description="See how I generate high-ticket sales through authentic and strategic conversations."
+      tag="LIVE SALES CALLS"
+      buttons={[
         {
-          id: "1",          name: "Colleen James",          role: "Founder",          company: "Flipping Destiny",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg?_wi=1"},
+          text: "Watch Video 1",          href: "https://www.loom.com/share/0a42b1f8faa24a569a0ea355a0ace9bd"},
         {
-          id: "2",          name: "Marie Ellis",          role: "CEO",          company: "Unleashed Coach",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-f95a6qti.png"},
-        {
-          id: "3",          name: "Sarah Johnson",          role: "Business Coach",          company: "Elevate Success",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-n1v84v61.png"},
-        {
-          id: "4",          name: "Michael Chen",          role: "Program Director",          company: "Innovate Academy",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-jrxqiej5.png"},
-        {
-          id: "5",          name: "Emily Rodriguez",          role: "Marketing Consultant",          company: "Growth Dynamics",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-psrh4jqm.jpg?_wi=2"},
+          text: "Watch Video 2",          href: "https://www.loom.com/share/1d02498590e84a5daf48796cd6a4deb7"},
       ]}
-      kpiItems={[
+      mediaItems={[
         {
-          value: "🔥",          label: "Your offer creates meaningful transformation"},
+          videoSrc: "https://www.loom.com/share/0a42b1f8faa24a569a0ea355a0ace9bd",          imageSrc: "http://img.b2bpic.net/free-photo/camera-capture-snap-shot-graphic_53876-121027.jpg",          imageAlt: "Loom video of a sales call",          videoAriaLabel: "Loom video demonstrating a sales call"
+        },
         {
-          value: "🌍",          label: "You're looking for a closer who genuinely believes in your mission"},
-        {
-          value: "📈",          label: "You want to scale your impact and revenue"},
+          videoSrc: "https://www.loom.com/share/1d02498590e84a5daf48796cd6a4deb7",          imageSrc: "http://img.b2bpic.net/free-photo/conference-call-global-communication-connection-technology-concept_53876-120414.jpg",          imageAlt: "Loom video of another sales call",          videoAriaLabel: "Loom video demonstrating another sales call"
+        }
       ]}
-      title="Client Success Stories"
-      description="Hear directly from business owners who have experienced transformative growth and revenue boosts through my closing expertise."
     />
   </div>
 
@@ -215,7 +177,7 @@ export default function LandingPage() {
             {
               label: "Services",              href: "#services"},
             {
-              label: "Results",              href: "#results"},
+              label: "Loom Videos",              href: "#loom-video"},
             {
               label: "Contact",              href: "#contact"},
           ],
