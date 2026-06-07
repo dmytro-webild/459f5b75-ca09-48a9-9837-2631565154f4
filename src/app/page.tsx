@@ -54,7 +54,7 @@ export default function LandingPage() {
       tag="REMOTE HIGH TICKET CLOSER"
       buttons={[
         {
-          text: "Book a Strategy Call",          href: "https://calendaly.com/katsells"},
+          text: "calendaly.com/katsells",          href: "https://calendaly.com/katsells"},
       ]}
       mediaItems={[
         {
