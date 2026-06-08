@@ -168,10 +168,10 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          videoSrc: "https://www.loom.com/share/0a42b1f8faa24a569a0ea355a0ace9bd",          imageSrc: "http://img.b2bpic.net/free-photo/camera-capture-snap-shot-graphic_53876-121027.jpg",          imageAlt: "Loom video of a sales call",          videoAriaLabel: "Loom video demonstrating a sales call"
+          videoSrc: "https://www.loom.com/share/0a42b1f8faa24a569a0ea355a0ace9bd",          imageSrc: "https://cdn.loom.com/sessions/thumbnails/0a42b1f8faa24a569a0ea355a0ace9bd.jpg",          imageAlt: "Thumbnail for Sales Call 1",          videoAriaLabel: "Loom video demonstrating a sales call"
         },
         {
-          videoSrc: "https://www.loom.com/share/1d02498590e84a5daf48796cd6a4deb7",          imageSrc: "http://img.b2bpic.net/free-photo/conference-call-global-communication-connection-technology-concept_53876-120414.jpg",          imageAlt: "Loom video of another sales call",          videoAriaLabel: "Loom video demonstrating another sales call"
+          videoSrc: "https://www.loom.com/share/1d02498590e84a5daf48796cd6a4deb7",          imageSrc: "https://cdn.loom.com/sessions/thumbnails/1d02498590e84a5daf48796cd6a4deb7.jpg",          imageAlt: "Thumbnail for Sales Call 2",          videoAriaLabel: "Loom video demonstrating another sales call"
         }
       ]}
     />
