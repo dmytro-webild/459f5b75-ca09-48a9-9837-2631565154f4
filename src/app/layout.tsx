@@ -45,9 +45,14 @@ export const metadata: Metadata = {
 
 
 
-const poppins = Poppins({
-  variable: "--font-poppins",  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
+  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -58,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${poppins.variable} antialiased`}>
+        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
           
           {children}
           <script
