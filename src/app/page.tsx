@@ -157,7 +157,7 @@ export default function LandingPage() {
       <HeroBillboardCarousel
       background={{
         variant: "plain"}}
-      title="Watch My Sales Calls in Action"
+      title="A Closer Who Thinks Like an Owner"
       description="See how I generate high-ticket sales through authentic and strategic conversations."
       tag="LIVE SALES CALLS"
       buttons={[
