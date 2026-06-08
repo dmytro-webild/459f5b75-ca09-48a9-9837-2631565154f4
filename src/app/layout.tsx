@@ -8,6 +8,7 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Archivo } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import { Poppins } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 
 
 
@@ -46,12 +47,13 @@ export const metadata: Metadata = {
 
 
 
-const inter = Inter({
-  variable: "--font-inter",
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
 });
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -63,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
+        <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
           
           {children}
           <script
