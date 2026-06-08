@@ -6,7 +6,6 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
-import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -47,7 +46,7 @@ export default function LandingPage() {
   </div>
 
   <div id="home" data-section="home">
-      <HeroSplitKpi
+      <HeroBillboardCarousel
       background={{
         variant: "plain"}}
       title="KATHLEEN REYES"
@@ -57,18 +56,11 @@ export default function LandingPage() {
         {
           text: "calendaly.com/katsells",          href: "https://calendaly.com/katsells"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png"
-      imageAlt="Kathleen Reyes coaching a client"
-      kpis={[
+      mediaItems={[
         {
-          value: "5M+",          label: "Generated Revenue"},
-        {
-          value: "80%+",          label: "Close Rate"},
-        {
-          value: "7+",          label: "Niches Served"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png",          imageAlt: "Kathleen Reyes coaching a client"
+        }
       ]}
-      enableKpiAnimation={true}
-      mediaAnimation="slide-up"
     />
   </div>
 
