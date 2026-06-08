@@ -5,6 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
