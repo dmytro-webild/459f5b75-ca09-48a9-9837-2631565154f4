@@ -158,8 +158,8 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       title="A Closer Who Thinks Like an Owner"
-      description="See how I generate high-ticket sales through authentic and strategic conversations."
-      tag="LIVE SALES CALLS"
+      description="Turning conversations into clients while treating your business like my own."
+      tag="LOOM VIDEOS"
       buttons={[
         {
           text: "Watch Video 1",          href: "https://www.loom.com/share/0a42b1f8faa24a569a0ea355a0ace9bd"},
