@@ -66,7 +66,7 @@ export default function LandingPage() {
           value: "80%+",          label: "Success Rate"},
       ]}
       enableKpiAnimation={true}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780877634857-mqq3pidg.png"
       imageAlt="Kathleen Reyes coaching a client"
       imagePosition="right"
       mediaAnimation="slide-up"
