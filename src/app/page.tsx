@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
+import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -46,7 +46,7 @@ export default function LandingPage() {
   </div>
 
   <div id="home" data-section="home">
-      <HeroBillboardCarousel
+      <HeroSplitKpi
       background={{
         variant: "plain"}}
       title="KATHLEEN REYES"
@@ -56,16 +56,18 @@ export default function LandingPage() {
         {
           text: "calendaly.com/katsells",          href: "https://calendaly.com/katsells"},
       ]}
-      mediaItems={[
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png"
+      imageAlt="Kathleen Reyes coaching a client"
+      kpis={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png",          imageAlt: "Kathleen Reyes coaching a client"},
+          value: "5M+",          label: "Generated Revenue"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675372-chqpb9nf.png",          imageAlt: "Kathleen Reyes in a coaching session"},
+          value: "80%+",          label: "Close Rate"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675372-1ihdcm68.png",          imageAlt: "Kathleen Reyes guiding a discussion"},
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675372-thu5tkhq.png",          imageAlt: "Kathleen Reyes consulting with a client"}
+          value: "7+",          label: "Niches Served"},
       ]}
+      enableKpiAnimation={true}
+      mediaAnimation="slide-up"
     />
   </div>
 
