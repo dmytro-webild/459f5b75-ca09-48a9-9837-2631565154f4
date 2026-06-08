@@ -6,6 +6,7 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FeatureCardSix from '@/components/sections/feature/FeatureCardSix';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
+import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import SplitAbout from '@/components/sections/about/SplitAbout';
@@ -46,7 +47,7 @@ export default function LandingPage() {
   </div>
 
   <div id="home" data-section="home">
-      <HeroBillboardCarousel
+      <HeroSplitKpi
       background={{
         variant: "plain"}}
       title="KATHLEEN REYES"
@@ -56,11 +57,19 @@ export default function LandingPage() {
         {
           text: "calendaly.com/katsells",          href: "https://calendaly.com/katsells"},
       ]}
-      mediaItems={[
+      kpis={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png",          imageAlt: "Kathleen Reyes coaching a client"
-        }
+          value: "$5M+",          label: "Sales Generated"},
+        {
+          value: "10+",          label: "Years Experience"},
+        {
+          value: "80%+",          label: "Success Rate"},
       ]}
+      enableKpiAnimation={true}
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874675371-v2v50uel.png"
+      imageAlt="Kathleen Reyes coaching a client"
+      imagePosition="right"
+      mediaAnimation="slide-up"
     />
   </div>
 
@@ -175,14 +184,14 @@ export default function LandingPage() {
       description="Ready to elevate your sales? Book a complimentary strategy call to discuss your goals and how I can help you achieve them. Schedule your call here: calendaly.com/katsells. You can also reach me directly at kathleen@reyespartnership.com."
       inputs={[
         {
-          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true
         },
         {
-          name: "email",          type: "email",          placeholder: "Your Email",          required: true,
-        },
+          name: "email",          type: "email",          placeholder: "Your Email",          required: true
+        }
       ]}
       textarea={{
-        name: "message",        placeholder: "Tell me about your business and goals",        rows: 4,
+        name: "message",        placeholder: "Tell me about your business and goals",        rows: 4
       }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EpOjPEO4eL38LZ8Wh985rob2ul/uploaded-1780874056403-lwadgd2z.jpg"
       imageAlt="Kathleen Reyes in a professional setting for scheduling appointments"
@@ -210,7 +219,7 @@ export default function LandingPage() {
               label: "Loom Videos",              href: "#loom-video"},
             {
               label: "Contact",              href: "#contact"},
-          ],
+          ]
         },
         {
           title: "Resources",          items: [
@@ -218,7 +227,7 @@ export default function LandingPage() {
               label: "Blog",              href: "#"},
             {
               label: "Case Studies",              href: "#"},
-          ],
+          ]
         },
         {
           title: "Legal",          items: [
@@ -226,8 +235,8 @@ export default function LandingPage() {
               label: "Privacy Policy",              href: "#"},
             {
               label: "Terms of Service",              href: "#"},
-          ],
-        },
+          ]
+        }
       ]}
       copyrightText="© 2024 Kathleen Reyes. All rights reserved."
     />
